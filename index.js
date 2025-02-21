@@ -17,6 +17,8 @@ function logRequest(req) {
     console.log(`Request Logged - ${req.method} ${req.url}`);
 }
 
+
+
 // Create an HTTP server
 const server = http.createServer((req, res) => {
     logRequest(req);
