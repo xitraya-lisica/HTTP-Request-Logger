@@ -8,9 +8,6 @@ const path = require('path');
 const logFile = path.join(__dirname, 'http_requests_log.txt');
 
 // Function to log incoming requests
-
-
-
 function logRequest(req) {
     const timestamp = new Date().toISOString();
     const logEntry = `[${timestamp}] ${req.method} ${req.url}\n`;
