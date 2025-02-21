@@ -24,8 +24,6 @@ const server = http.createServer((req, res) => {
     res.end('Request received and logged.\n');
 });
 
-
-
 // Start the server
 const PORT = 3000;
 server.listen(PORT, () => {
