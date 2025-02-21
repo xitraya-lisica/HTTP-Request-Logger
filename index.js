@@ -4,6 +4,8 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
+
+
 // Log file path
 const logFile = path.join(__dirname, 'http_requests_log.txt');
 
